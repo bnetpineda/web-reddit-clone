@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acknowledge</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="pictures/logo.png" alt="logo"></a>
+        </div>
+        <input type="text" placeholder="Search Acknowledge" class="search-bar">
+        <div class="top-icons">
+            <i class="fas fa-bell notification-icon"></i>
+            <button id="login-btn" class="login">Login</button>
+        </div>
+    </header>
+
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loading-animation">
+            <img src="pictures/logo.png" alt="Loading">
+            <p>Loading...</p>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <a href="#" class="scroll-to-top">
+        <img src="pictures/logo.png" alt="Logo">
+    </a>
+
+    <div class="sidebar">
+        <ul class="nav">
+            <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#"><i class="fas fa-fire-alt"></i> Popular</a></li>
+            <li><a href="#"><i class="fas fa-chalkboard"></i> New Content</a></li>
+        </ul>
+        <div class="section">
+            <h3>Recent <i class="fas fa-chevron-down toggle-icon"></i></h3>
+            <ul class="subnav">
+                <li><a href="#">Lorem Ipsum</a></li>
+                <li><a href="#">Lorem Ipsum</a></li>
+            </ul>
+        </div>
+        <div class="section">
+            <h3>Topics <i class="fas fa-chevron-down toggle-icon"></i></h3>
+            <ul class="subnav">
+                <li><a href="#"><i class="fas fa-gamepad"></i> Games</a></li>
+                <li><a href="#"><i class="far fa-comment-alt"></i> Q&As</a></li>
+                <li><a href="#"><i class="fas fa-satellite"></i> Technology</a></li>
+            </ul>
+        </div>
+        <div class="section">
+            <h3>Resources <i class="fas fa-chevron-down toggle-icon"></i></h3>
+            <ul class="subnav">
+                <li><a href="#"><i class="fas fa-question-circle"></i> About Acknowledge</a></li>
+                <li><a href="#"><i class="fas fa-bullhorn"></i> Advertise</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    
+
+    <main>
+        <section class="main-content">
+            <section class="stories">
+                <h3>Stories</h3>
+                <div class="story-carousel">
+                    <div class="story">
+                        <img src="pictures/story1.jpg" alt="User Story">
+                    </div>
+                    <div class="story">
+                        <img src="pictures/story2.jpg" alt="User Story">
+                    </div>
+                    <div class="story">
+                        <img src="pictures/story3.jpg" alt="User Story">
+                    </div>
+                    <div class="story">
+                        <img src="pictures/story4.jpg" alt="User Story">
+                    </div>
+                    <div class="story">
+                        <img src="pictures/jinx.jpg" alt="User Story">
+                    </div>
+                </div>
+            </section>
+
+            <section class="filter-bar">
+                <div class="filter-group" id="hot-group">
+                    <span class="filter-title">Hot <i class="fas fa-chevron-down"></i></span>
+                    <ul class="filter-options">
+                        <li>Hot</li>
+                        <li>Trend</li>
+                        <li>New</li>
+                    </ul>
+                </div>
+            
+                <div class="filter-group" id="philippines-group">
+                    <span class="filter-title">Philippines <i class="fas fa-chevron-down"></i></span>
+                    <ul class="filter-options">
+                        <li>Philippines</li>
+                        <li>Global</li>
+                        <li>Local</li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section class="content-container">
+                <div class="posts">
+                    <div class="post">
+                        <h3>What is Lorem Ipsum?</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+                        <div class="post-actions">
+                            <span>👍 1.2k</span>
+                            <span>👎 1.2k</span>
+                            <span>Share</span>
+                        </div>
+                    </div>
+
+                    <div class="post">
+                        <h3>What is Lorem Ipsum?</h3>
+                        <img src="pictures/jinx.jpg" alt="Post Image">
+                    </div>
+                </div>
+
+                <div class="popular">
+                    <h3>Popular Communities</h3>
+                    <ul>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                    </ul>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Acknowledge</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
